@@ -1,0 +1,12 @@
+<ejs-treegrid [dataSource]="data" width="auto" childMapping="Children">
+  <e-columns>
+    <e-column field="EmpID" headerText="Employee ID" width="180"></e-column>
+    <e-column field="Name" headerText="Employee Name" width="150"></e-column>
+	<e-column field="DOB" headerText="Date of Birth" width="150"  format="yMd"></e-column>
+    <e-column
+      field="Address"
+      headerText="Employee Details"
+      width="350"
+    ></e-column>
+  </e-columns>
+</ejs-treegrid>
